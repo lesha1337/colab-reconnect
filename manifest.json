@@ -1,0 +1,20 @@
+{
+    "name": "Colab reconnect",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "colab",
+    "homepage_url": "https://vk.com/index_tsx",
+    "background": {
+        "scripts": [
+          "background.js"
+        ],
+        "persistent": false
+      },
+      "browser_action": {
+        "default_title": "Inject!"
+      },
+      "permissions": [
+        "https://colab.research.google.com/drive/*",
+        "activeTab"
+      ]
+  }
